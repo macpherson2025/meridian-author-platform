@@ -1,0 +1,21 @@
+# Credentials and environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+wp-config.php
+*.sql
+*.sql.gz
+
+# WordPress runtime content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+
+# Local files
+.DS_Store
+*.log
+node_modules/
